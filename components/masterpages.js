@@ -25,7 +25,7 @@ const Header = () => (
         Home
       </a>
     </Link>
-    <Link href="/about">
+    <Link href="/abomt">
       <a style={linkStyle}>
         About
       </a>
