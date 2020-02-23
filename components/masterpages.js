@@ -12,10 +12,10 @@ const linkStyle = {
 };
 
 const Layout = props => (
-<div style={layoutStyle}>
-  <Header />
-  {props.children}
-</div>
+  <div style={layoutStyle}>
+    <Header />
+    {props.children}
+  </div>
 );
 
 const Header = () => (
@@ -23,6 +23,16 @@ const Header = () => (
     <Link href="/">
       <a style={linkStyle}>
         Home
+      </a>
+    </Link>
+    <Link href="/about">
+      <a style={linkStyle}>
+        About
+      </a>
+    </Link>
+    <Link href="/about">
+      <a style={linkStyle}>
+        About
       </a>
     </Link>
     <Link href="/about">
