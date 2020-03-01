@@ -1,5 +1,5 @@
 {
     "var":1,
     "string":"str",
-    "secret":"@secretval"
+    "secret":"SECRETVAL"
 }
