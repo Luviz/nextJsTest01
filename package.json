@@ -1,8 +1,12 @@
 {
   "name": "nextjs",
   "version": "0.1.1",
-  "description": "",
+  "description": "test next js web app",
   "main": "index.js",
+  "repository": {
+    "directory": ".git",
+    "url": "https://github.com/Luviz/nextJsTest01.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
@@ -15,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "next": "^9.2.2",
+    "next": "^9.1.6",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
